@@ -39,7 +39,7 @@ void FunctionRateOfReturn(const double& S,
                          double& rateOfReturn,
                          double& V)
 
-//  ExportData prints data on an output stream
+//  ExportResult prints data on an output stream
 //  out: object of type ostream
 //  S: the initial wealth
 //  n: the number of assets
