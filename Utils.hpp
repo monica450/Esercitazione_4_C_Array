@@ -32,7 +32,7 @@ bool ImportVectors(const string& inputFilePath,
 //  rateOfReturn: the resulting rate of return
 //  V: the resulting final wealth
 
-void ComputeRateOfReturn(const double& S,
+void FunctionRateOfReturn(const double& S,
                          const size_t& n,
                          const double* const& w,
                          const double* const& r,
