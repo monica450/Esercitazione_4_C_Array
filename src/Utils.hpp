@@ -6,7 +6,6 @@
 
 using namespace std;
 
-int foo(ClassObj obj);
 
 
 //  ImportVectors reads the input data from the data file
@@ -21,7 +20,7 @@ bool ImportVectors(const string& inputFilePath,
                 double& S,
                 size_t& n,
                 double*& w,
-                double*& r) 
+                double*& r);
 
 
 //  FunctionRateOfReturn computes the rate of return of the portfolio and the final amount of wealth
@@ -37,7 +36,7 @@ void FunctionRateOfReturn(const double& S,
                          const double* const& w,
                          const double* const& r,
                          double& rateOfReturn,
-                         double& V)
+                         double& V);
 
 //  ExportResult prints data on an output stream
 //  out: object of type ostream
@@ -54,7 +53,7 @@ void ExportResult(ostream& out,
                 const double* const& w,
                 const double* const& r,
                 const double& rateOfReturn,
-                const double& V)
+                const double& V);
 
 
 // Export a vector in a string
@@ -62,5 +61,5 @@ void ExportResult(ostream& out,
 // v: vector
 // the resulting string
 string ArrayToString(const size_t& n,
-                     const double* const& v)
+                     const double* const& v);
 
