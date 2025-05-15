@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include "ClassObj.hpp"
+
 #include <iostream>
 
 using namespace std;
